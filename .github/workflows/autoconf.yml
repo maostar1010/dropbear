@@ -2,6 +2,7 @@
 # Assumes that autoconf 2.71 was run, the same as ubuntu 22.04
 name: Autoconf Up To Date
 on:
+  workflow_dispatch:
   pull_request:
   push:
     branches:

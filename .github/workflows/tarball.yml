@@ -1,6 +1,7 @@
 name: tarball sha256sum
 on:
-  push:
+  workflow_dispatch:
+  push: 
     branches:
       - master
 jobs:
